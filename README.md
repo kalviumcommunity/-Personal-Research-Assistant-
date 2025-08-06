@@ -1,7 +1,7 @@
-# -Personal-Research-Assistant-
+Personal Research Assistant
 An AI-powered research companion that helps users search, summarize, and organize knowledge with source-backed answers using LLMs, RAG (Retrieval-Augmented Generation), and Tool Integration.
 
-Features
+🚀 Features
 Smart Research: Ask any question and get AI-generated, fact-grounded summaries.
 
 Source Citations: Each response includes links or references to the sources used.
@@ -14,7 +14,7 @@ RAG-Powered Accuracy: Retrieves information from verified sources to reduce hall
 
 Web Search & API Integration: Optionally fetches live data from the web.
 
-Tech Stack
+🛠️ Tech Stack
 Frontend: React.js / Next.js (for interactive dashboard)
 
 Backend: Node.js / Express.js or Python FastAPI
