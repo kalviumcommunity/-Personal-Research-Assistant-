@@ -36,6 +36,9 @@ pdfkit / python-docx for exporting reports
 axios or requests for API calls [web search, news API, etc.]
 
 
+axios or requests for API calls [web search, news API, etc.]
+
+
 
 
 
@@ -84,5 +87,6 @@ French: "Où est la gare la plus proche ?"
 Now, translate the following sentence into French:  
 
 English: "Can you help me find a good restaurant nearby?"  
+
 
 
