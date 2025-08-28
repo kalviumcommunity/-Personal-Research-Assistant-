@@ -129,3 +129,18 @@ Rules:
 
 Problem:
 {problem_text}
+
+
+## System and User Prompt
+
+USER PROMPT:
+Research the topic below and provide the answer in this structured format:
+
+Topic: "Impact of remote work on employee productivity"
+
+Output format:
+{
+  "summary": "Brief explanation in 3-4 sentences",
+  "key_points": ["Point 1", "Point 2", "Point 3"],
+  "sources": ["Source 1 URL", "Source 2 URL"]
+}
