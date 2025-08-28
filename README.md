@@ -34,3 +34,20 @@ LangChain or LlamaIndex for RAG pipeline
 pdfkit / python-docx for exporting reports
 
 axios or requests for API calls [web search, news API, etc.]
+
+
+
+## ONE-SHOT Prompting
+You are an assistant that generates concise summaries of news articles.  
+Here’s an example:  
+
+[Example Article]:  
+"OpenAI has released a new AI model that improves reasoning abilities and reduces hallucinations."  
+
+[Example Summary]:  
+"OpenAI launched a new AI model with stronger reasoning and fewer errors."  
+
+Now, summarize this article in the same style:  
+
+[Article]:  
+"Researchers at MIT have developed a solar-powered desalination system that can provide clean drinking water at low cost to rural communities."  
