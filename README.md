@@ -36,6 +36,12 @@ pdfkit / python-docx for exporting reports
 axios or requests for API calls [web search, news API, etc.]
 
 
+axios or requests for API calls [web search, news API, etc.]
+
+
+
+
+
 
 ## ONE-SHOT Prompting
 You are an assistant that generates concise summaries of news articles.  
