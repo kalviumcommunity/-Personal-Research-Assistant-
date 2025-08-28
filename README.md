@@ -60,6 +60,7 @@ Now, summarize this article in the same style:
 
 
 
+
 ## ZERO-SHOT Prompting
 
 Summarize the following article in one concise sentence:  
@@ -87,6 +88,5 @@ French: "Où est la gare la plus proche ?"
 Now, translate the following sentence into French:  
 
 English: "Can you help me find a good restaurant nearby?"  
-
 
 
