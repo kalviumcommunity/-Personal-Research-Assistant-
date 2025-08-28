@@ -36,6 +36,9 @@ pdfkit / python-docx for exporting reports
 axios or requests for API calls [web search, news API, etc.]
 
 
+axios or requests for API calls [web search, news API, etc.]
+
+
 
 ## ONE-SHOT Prompting
 You are an assistant that generates concise summaries of news articles.  
@@ -51,3 +54,13 @@ Now, summarize this article in the same style:
 
 [Article]:  
 "Researchers at MIT have developed a solar-powered desalination system that can provide clean drinking water at low cost to rural communities."  
+
+
+
+## ZERO-SHOT Prompting
+
+Summarize the following article in one concise sentence:  
+
+"Researchers at MIT have developed a solar-powered desalination system that can provide clean drinking water at low cost to rural communities."
+
+
