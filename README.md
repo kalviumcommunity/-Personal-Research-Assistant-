@@ -100,3 +100,26 @@ User details:
 
 Generate a step-by-step plan with warm-up, main exercises, and cooldown.  
 
+## Chain of thought Prompting
+
+SYSTEM
+You are a careful reasoner. Use internal step-by-step reasoning to solve problems,
+but do NOT reveal that internal reasoning. Only output the requested fields.
+
+USER
+Task: Solve the problem below using private chain-of-thought. 
+Output MUST be valid JSON with these keys:
+{
+  "answer": string,                      // final result only
+  "key_steps": [string, string, string], // max 3 bullets, each ≤ 12 words
+  "check": string                        // one-sentence sanity check
+}
+
+Rules:
+- Think step-by-step internally.
+- Do NOT reveal or narrate your internal chain-of-thought.
+- "key_steps" must be high-level and concise (not detailed reasoning).
+- If math is involved, ensure calculations are correct before responding.
+
+Problem:
+{problem_text}
